@@ -1,0 +1,78 @@
+body {
+  background-image: url("background.jpg");
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.logout-box {
+  background-color: white;
+  opacity: 85%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.box {
+  min-height: 48px;
+}
+
+.button-box {
+  border-radius: 25px;
+  background-color: #04aa6d !important;
+  color: white !important;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px;
+}
+
+.button-box-type{
+  border-radius: 25px;
+  background-color: #04aa6d !important;
+  color: white !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px;
+}
+
+.logout-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.background-orange {
+  background-color: orange;
+}
+.background-green {
+  background-color: palegreen;
+}
+.background-yellow {
+  background-color: yellow;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.text-size {
+  font-size: 24px;
+}
+
+.border-bottom-red {
+  border-bottom: 3px solid red;
+}
+
+.input-text {
+  padding-left: 25px !important;
+} 
+
+
+.border-radius-input {
+  border-radius: 10px;
+}
+
+.nameUser {
+  background-color: rgb(196, 194, 194);
+}
+
+.max-hight-todo{
+  max-height: 93vh;
+}
