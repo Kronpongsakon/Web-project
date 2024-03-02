@@ -128,15 +128,14 @@ function App() {
       setUser(listUser.users);
     }
   }, [listUser]);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+  
   useEffect(() => {
     if (newListTodos && newListTodos.todos) {
       if (todos.length !== newListTodos.todos.length){
         setHasNewTodo(true)
       }
     }
-  }, [newListTodos]);
-  // eslint-enable-next-line react-hooks/exhaustive-deps
+  }, [newListTodos,todos.length]);
   return (
     <div>
       <div className='logout-box'>
