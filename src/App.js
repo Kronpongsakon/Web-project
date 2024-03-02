@@ -135,7 +135,8 @@ function App() {
         setHasNewTodo(true)
       }
     }
-  }, [newListTodos,todos.length]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [newListTodos]);
   return (
     <div>
       <div className='logout-box'>
