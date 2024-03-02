@@ -1,6 +1,5 @@
 body {
   background-image: url("background.jpg");
-  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .logout-box {
@@ -18,9 +17,6 @@ body {
   border-radius: 25px;
   background-color: #04aa6d !important;
   color: white !important;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
   border: 0px;
 }
 
@@ -28,14 +24,24 @@ body {
   border-radius: 25px;
   background-color: #04aa6d !important;
   color: white !important;
+  font-weight: bold;
   padding-left: 20px;
   padding-right: 20px;
   border: 0px;
 }
 
-.logout-text {
+.logout-button {
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.delete-button {
   font-size: 16px;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .background-orange {
@@ -74,5 +80,24 @@ body {
 }
 
 .max-hight-todo{
-  max-height: 93vh;
+  max-height: 49vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.max-hight-todo::-webkit-scrollbar {
+  width: 10px;
+}
+
+.max-hight-todo::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+.max-hight-todo::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 25px;
+}
+
+.max-hight-todo::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
