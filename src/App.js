@@ -131,9 +131,7 @@ function App() {
 
   useEffect(() => {
     if (newListTodos && newListTodos.todos) {
-      if (todos.length != newListTodos.todos.length){
-        setHasNewTodo(true)
-      }
+      setHasNewTodo(true)
     }
   }, [newListTodos]);
 
